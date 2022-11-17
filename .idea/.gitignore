@@ -1,0 +1,566 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Criado por https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,vs
+# Edite em https://www.toptal.com/developers/gitignore?templates=java,intellij,eclipse,vs
+
+###Eclipse###
+.metadata
+caixa/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.definições/
+.loadpath
+.recommenders
+
+# Construtores de ferramentas externas
+.externalToolBuilders/
+
+# "Configurações de inicialização do Eclipse" armazenadas localmente
+*.lançar
+
+# PyDev específico (Python IDE para Eclipse)
+*.pydevproject
+
+# Específico do CDT (ferramentas de desenvolvimento C/C++)
+.cprojeto
+
+# CDT- ferramentas automáticas
+.autotools
+
+# Processador de anotações Java (APT)
+.factorypath
+
+# Específico para PDT (ferramentas de desenvolvimento PHP)
+.buildpath
+
+# plug-in sbteclipse
+.alvo
+
+# plugin Tern
+.tern-project
+
+# plug-in TeXlipse
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Recomendadores de código
+.recomendadores/
+
+# Processamento de anotação
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE específico (Desenvolvimento Scala e Java para Eclipse)
+.cache-principal
+.scala_dependencies
+.planilha
+
+# Descomente esta linha se desejar ignorar o arquivo de descrição do projeto.
+# Normalmente, este arquivo seria rastreado se contiver configurações de compilação/dependência:
+#.projeto
+
+### Atualização do Eclipse ###
+# Ferramentas de inicialização do Spring
+.sts4-cache/
+
+### Intellij ###
+# Abrange IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
+# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Material específico do usuário
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dicionários
+.idéia/**/prateleira
+
+# Específico do usuário da AWS
+.idea/**/aws.xml
+
+# Arquivos gerados
+.idea/**/contentModel.xml
+
+# Arquivos confidenciais ou de alta rotatividade
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+#Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle e Maven com importação automática
+# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
+# já que eles serão recriados e podem causar rotatividade. Descomente se estiver usando
+# importação automática.
+# .ideia/artefatos
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idéia/módulos
+# *.iml
+# *.ipr
+
+#CMake
+cmake-build-*/
+
+# Plug-in Mongo Explorer
+.idea/**/mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+*.iws
+
+#IntelliJ
+Fora/
+
+# plug-in mpeltonen/sbt-idea
+.idea_modules/
+
+# plug-in do JIRA
+atlassian-ide-plugin.xml
+
+# plugin Cursive Clojure
+.idea/replstate.xml
+
+# plug-in SonarLint
+.idéia/sonarlint/
+
+# Plugin Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+tecido.propriedades
+
+# Cliente de descanso baseado em editor
+.idea/httpRequests
+
+# Android studio 3.1+ arquivo de cache serializado
+.idea/caches/build_file_checksums.ser
+
+### Patch Intellij ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# módulos.xml
+# .idea/misc.xml
+# *.ipr
+
+# plug-in Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# Plugin do SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Plug-in Markdown Navigator
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Bug de criação de arquivo de cache
+# Consulte https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# plug-in CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Kit de ferramentas do Azure para plug-in IntelliJ
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
+###Java###
+# Arquivo de classe compilado
+*.classe
+
+# Arquivo de log
+*.registro
+
+# Arquivos BlueJ
+*.ctxt
+
+# Ferramentas móveis para Java (J2ME)
+.mtj.tmp/
+
+# Arquivos de pacote #
+*. jarra
+*.guerra
+*.nar
+*.orelha
+*.fecho eclair
+*.tar.gz
+*.rar
+
+# logs de travamento da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### contra ###
+## Ignore arquivos temporários do Visual Studio, crie resultados e
+## arquivos gerados por complementos populares do Visual Studio.
+##
+## Obtenha o mais recente em https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# Arquivos específicos do usuário
+*.rsuser
+*.suo
+*.do utilizador
+*.userosscache
+*.sln.docstates
+
+# Arquivos específicos do usuário (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Arquivos mono gerados automaticamente
+mono_crash.*
+
+# Construir resultados
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]liberar/
+[Rr]libera/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Diretório de cache/opções do Visual Studio 2015/2017
+.vs/
+# Descomente se você tiver tarefas que criam os arquivos estáticos do projeto em wwwroot
+#wwwroot/
+
+# Arquivos gerados automaticamente pelo Visual Studio 2017
+Gerado\ Arquivos/
+
+# Resultados do teste MSTest
+[Tt]est[Rr]result*/
+[Bb]uild[Ll]og.*
+
+#NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Construir resultados de um projeto ATL
+[Dd]ebugPS/
+[Rr]soltaPS/
+dlldata.c
+
+# Resultados de referência
+BenchmarkDotNet.Artifacts/
+
+# .NET Núcleo
+projeto.lock.json
+project.fragment.lock.json
+artefatos/
+
+# StyleCop
+StyleCopReport.xml
+
+# Arquivos criados pelo Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.construções
+*.pidb
+*.svclog
+*.scc
+
+# Arquivos de teste Chutzpah
+_Chutzpah*
+
+# Arquivos de cache do Visual C++
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Criador de perfil do Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.seiva
+
+# Arquivos de rastreamento do Visual Studio
+*.e2e
+
+# Espaço de trabalho local do TFS 2012
+$tf/
+
+# Kit de ferramentas de automação de orientação
+*.gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity é um suplemento de compilação
+_TeamCity*
+
+# DotCover é uma ferramenta de cobertura de código
+*.dotCover
+
+# AxoCover é uma ferramenta de cobertura de código
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet é uma ferramenta de cobertura de código multiplataforma gratuita
+cobertura*[.json, .xml, .info]
+
+# Resultados da cobertura de código do Visual Studio
+*.cobertura
+*.coveragexml
+
+# N Crunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+#MightyMoose
+*.milímetros.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Pasta de saída Installshield
+[Ee]expresso/
+
+# DocProject é um add-in gerador de documentação
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+*.[Pp]ublish.xml
+*.azurePubxml
+# Nota: Comente a próxima linha se quiser verificar suas configurações de implantação da web,
+# mas as strings de conexão do banco de dados (com possíveis senhas) serão descriptografadas
+*.pubxml
+*.publishproj
+
+# Configurações de publicação do Microsoft Azure Web App. Comente a próxima linha se quiser
+# verificando as configurações de publicação do aplicativo Web do Azure, mas as informações confidenciais contidas
+# nestes scripts serão descriptografados
+PublishScripts/
+
+# Pacotes NuGet
+*.nupkg
+# Pacotes de símbolos NuGet
+*.snupkg
+# A pasta de pacotes pode ser ignorada por causa da restauração do pacote
+**/[Pp]pacotes/*
+# exceto build/, que é usado como um destino do MSBuild.
+!**/[Pp]ackages/build/
+# Descomente se necessário, mas geralmente ele será regenerado quando necessário
+#!**/[Pp]ackages/repositories.config
+# Os arquivos project.json do NuGet v3 produzem mais arquivos ignoráveis
+*.nuget.props
+*.nuget.targets
+
+# Saída de compilação do Microsoft Azure
+csx/
+*.build.csdef
+
+# Emulador do Microsoft Azure
+ecf/
+rcf/
+
+# Diretórios e arquivos de pacotes de aplicativos da Windows Store
+AppPackages/
+Pacote de artefatos/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Arquivos de cache do Visual Studio
+# arquivos terminados em .cache podem ser ignorados
+*.[Cc]dor
+# mas rastreie os diretórios que terminam em .cache
+!?*.[Cc]dor/
+
+# Outros
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publicarconfigurações
+orleans.codegen.cs
+
+# Incluir arquivos de nome forte pode apresentar um risco de segurança
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Como existem vários fluxos de trabalho, remova o comentário da próxima linha para ignorar bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# Projetos RIA/Silverlight
+Código_gerado/
+
+# Arquivos de backup e relatório da conversão de um arquivo de projeto antigo
+# para uma versão mais recente do Visual Studio. Arquivos de backup não são necessários,
+# porque temos git ;-)
+_UpgradeReport_Files/
+Cópia de segurança*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# arquivos SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Projetos de Business Intelligence
+*.rdl.data
+*.bim.layout
+*.bim_*.configurações
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+#Microsoft Falsificações
+Montagens Falsas/
+
+# Arquivo de configuração do plugin GhostDoc
+*.GhostDoc.xml
+
+# Ferramentas Node.js para Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Registro de compilação do Visual Studio 6
+*.plg
+
+# Arquivo de opções do espaço de trabalho do Visual Studio 6
+*.optar
+
+# Arquivo de espaço de trabalho gerado automaticamente pelo Visual Studio 6 (contém quais arquivos foram abertos, etc.)
+*.vbw
+
+# Saída de compilação do Visual Studio LightSwitch
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Gerenciador de dependências de pacotes
+.paket/paket.exe
+arquivos-pacote/
+
+#FAKE - F# Make
+.falso/
+
+# Configurações pessoais do CodeRush
+.cr/pessoal
+
+# Ferramentas Python para Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+#Bolo - Descomente se estiver usando
+# Ferramentas/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Arquivo de configuração JustMock do Telerik
+*.jmconfig
+
+# Saída de compilação do BizTalk
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# Resultados da análise da interface do usuário do OpenCover
+OpenCover/
+
+# Saída de execução local do Azure Stream Analytics
+ASALocalRun/
+
+# Log binário e estruturado do MSBuild
+*.binlog
+
+# Arquivo de configuração do depurador GPU NVidia Nsight
+*.nvuser
+
+# Pasta de trabalho MFractors (ferramenta de produtividade Xamarin)
+.mfractor/
+
+# Histórico local para Visual Studio
+.localhistory/
+
+# Banco de dados temporário de verificação de integridade do BeatPulse
+healthchecksdb
+
+# Pasta de backup para a ferramenta Package Reference Convert no Visual Studio 2017
+MigraçãoBackup/
+
+# Pasta de trabalho Ionide (ferramentas F# VS Code de plataforma cruzada)
+.ionide/
+
+# Fim de https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,vs
